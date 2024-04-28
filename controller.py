@@ -84,8 +84,8 @@ def get_transit_gateway_route_table(transit_gateway_id):
 
 def create_transit_gateway_route_entry(tgw_route_table_id, destination_cidr, peering_id):
     ec2_client = boto3.client('ec2',
-                              aws_access_key_id='AKIAUTA4UV6WXGCJ4KVQ', 
-                              aws_secret_access_key='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', 
+                              aws_access_key_id='', 
+                              aws_secret_access_key='', 
                               region_name='ap-south-1')
     
     ec2_client.create_transit_gateway_route(
