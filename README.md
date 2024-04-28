@@ -19,7 +19,7 @@ This is a project that aims to provide a solution for traffic engineering in a m
 
 1. Start the Flask application by running the following command:
 ```
-python3 main.py
+python3 controller.py
 ```
 2. Register nodes using the `/register_node` endpoint. For example:
 ``` 
